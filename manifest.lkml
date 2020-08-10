@@ -7,7 +7,8 @@ constant: CONNECTION_NAME {
 
 application: extension-accesskey-demo {
   label: "Extension Access Key Demo"
-  url: "http://localhost:8080/bundle.js"
+  # url: "http://localhost:8080/bundle.js"
+  file: "bundle.js"
   entitlements: {
     allow_same_origin: yes
     allow_forms: yes
